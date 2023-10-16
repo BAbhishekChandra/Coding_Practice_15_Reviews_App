@@ -43,7 +43,6 @@
 
 .profile-name {
   font-family: 'Roboto';
-  font-family: 'Roboto';
   font-size: 20px;
   font-weight: 500;
   color: #ffffff;
@@ -66,4 +65,41 @@
 .arrow-image {
   width: 40px;
   height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .reviews-heading {
+    font-size: 34px;
+    padding-bottom: 20px;
+  }
+
+  .custom-button {
+    padding: 40px;
+  }
+
+  .profile-container {
+    width: 300px;
+  }
+
+  .profile-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .profile-name {
+    font-size: 18px;
+  }
+
+  .profile-company-name {
+    font-size: 16px;
+  }
+
+  .profile-description {
+    font-size: 14px;
+  }
+
+  .arrow-image {
+    width: 20px;
+    height: 20px;
+  }
 }
